@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Playlist</title>
 </head>
 <body>
-    <!-- Write your code here -->
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <h1 style="text-align: center;">My Playlist</h1>
+<ul>
+        <li style="list-style-type: none;">
+            <a href="song1.mp3" target="_blank" style="text-decoration: none;">Song 1</a>
+        </li>
+        <li style="list-style-type: none;">
+            <a href="song2.mp3" target="_blank" style="text-decoration: none;">Song 2</a>
+        </li>
+        <li style="list-style-type: none;">
+            <a href="song3.mp3" target="_blank" style="text-decoration: none;">Song 3</a>
+        </li>
+        <li style="list-style-type: none;">
+            <a href="song4.mp3" target="_blank" style="text-decoration: none;">Song 4</a>
+        </li>
+        <li style="list-style-type: none;">
+            <a href="song5.mp3" target="_blank" style="text-decoration: none;">Song 5</a>
+        </li>
+    </ul>
+    <h2 style="text-align: center;">Now Playing...</h2>
+
+    <div class="player_one">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <h2 style="text-align: center;">MP3 songs</h2>
+
+    
+
+    <div class="player_two">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
 </body>
- 
 </html>
